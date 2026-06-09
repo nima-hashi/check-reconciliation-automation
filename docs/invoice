@@ -1,9 +1,0 @@
-## Invoice Workflow
-
-1. Download invoices from email
-2. Extract:
-   - Vendor
-   - Invoice Number
-   - Amount
-   - Date
-3. Save as structured data
