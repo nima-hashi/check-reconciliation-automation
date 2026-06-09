@@ -1,1 +1,9 @@
+# Proposed Architecture
+
+## Agent 1 - Check Retrieval
+
+Downloads paid check images from the bank.
+
+Output:
+- Check image files
 
