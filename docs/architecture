@@ -7,3 +7,44 @@ Downloads paid check images from the bank.
 Output:
 - Check image files
 
+## Agent 2 - Check Optical Character Recognition (OCD)
+
+OCD --> technology that takes an image or PDF and turns the text inside it into structured data that a computer can read
+
+Extracts payment information from check images.
+
+Output:
+- Vendor
+- Amount
+- Date
+- Check Number
+
+## Agent 3 - Invoice Retrieval
+
+Downloads invoices from email.
+
+Output:
+- Invoice PDF files
+
+## Agent 4 - Invoice OCR
+
+Extracts invoice information.
+
+Output:
+- Vendor
+- Invoice Number
+- Amount
+- Date
+
+## Agent 5 - Matching Agent
+
+Matches invoices against paid checks.
+
+Output:
+- Match results
+- Exceptions
+
+## Agent 6 - Reporting Agent
+
+Creates Excel reports and QuickBooks import files.
+
