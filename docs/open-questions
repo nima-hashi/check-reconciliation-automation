@@ -1,0 +1,15 @@
+# Open Questions
+
+1. What information should be used to match invoices and checks?
+   - Vendor?
+   - Amount?
+   - Invoice Number?
+
+2. What should the final output be?
+   - Excel
+   - QuickBooks
+   - Both
+
+3. Are invoices always received by email?
+
+4. Are check images already available for download?
