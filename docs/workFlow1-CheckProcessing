@@ -1,0 +1,30 @@
+### Step 1
+
+Login to bank account
+
+### Step 2
+
+Download cleared check images
+
+### Step 3
+
+AI reads the check and extracts:
+
+Vendor name
+Check number
+Amount
+Date
+
+### Step 4
+
+Save the data into:
+
+Excel
+QuickBooks
+Database
+
+### Example:
+
+Vendor --->	"name"
+Amount	---> $500
+Date  ---> Jan 10 2026
