@@ -1,16 +1,36 @@
-# check-reconciliation-automation
-Reconcile (match) checks against invoices automatically
+# Invoice Reconciliation System
 
-Goal
+# Overview
 
-Create a process that automatically:
+This project helps match invoices with payments so we can easily see what’s been paid and what’s still outstanding.
 
-1. Downloads paid check images from the bank
-2. Pulls important information from each check (vendor, amount, date, etc.).
-3. Downloads vendor invoices from email.
-4. Pulls important information from each invoice.
-5. Matches invoices to checks that have been paid.
-6. Flags missing invoices, missing checks, or amount mismatches.
-7. Generates a report that can be used in Excel and/or QuickBooks.
+# What it does
 
-The goal is to reduce manual work and make the reconciliation process faster and more accurate.
+- Matches invoices to bank payments
+- Finds invoices that haven’t been paid
+- Flags payments that don’t have invoices
+- Highlights any mismatches in amount or vendor
+  
+# How it works (high level)
+
+- Pulls data from invoices and bank checks
+- Organizes the information into a simple format
+- Compares everything to find matches and issues
+- Shows results in a dashboard
+  
+# Output
+- Paid invoices
+- Unpaid invoices
+- Missing invoices
+- Mismatched records
+
+# Dashboard
+
+A Power BI dashboard is used to view:
+
+- Total invoices and payments
+- What’s been paid
+- What’s still open
+- Any issues that need review
+
+# NOTE: Detailed workflows are included in separate files in the repo. 
