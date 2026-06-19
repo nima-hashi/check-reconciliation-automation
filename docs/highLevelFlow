@@ -1,0 +1,7 @@
+### High Level workflow
+
+Bank Account -> Download Check Images -> AI Extracts Check Data -> Checks Database
+
+Vendor Emails -> Download Invoices -> AI Extracts Invoice Data -> Invoices Database
+
+Checks + Invoices -> AI Reconciliation Engine -> Match / Missing / Mismatch -> Power BI Dashboard
