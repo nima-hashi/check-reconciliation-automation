@@ -1,0 +1,11 @@
+### The following checks must be made to know status of invoice:
+
+1. If vendor and amount match --> Paid
+
+2. If invoice exists but no check --> Unpaid Invoice
+
+3. If check exists but no invoice --> Missing Invoice
+
+4. If amounts don't match --> Amount Mismatch
+
+5. If vendor names don't match --> Vendor Mismatch
