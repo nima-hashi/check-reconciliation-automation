@@ -1,0 +1,22 @@
+### Step 1
+
+Download invoices from email or vendor portal
+
+### Step 2
+
+AI reads invoice and extracts:
+
+Vendor name
+Invoice number
+Amount
+Date
+
+### Step 3
+
+Save into Excel or database
+
+Example:
+
+Vendor ---> "NAME"
+Amount ---> $500
+Invoice# ---> INV-100
