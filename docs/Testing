@@ -1,0 +1,19 @@
+### Test 1: Bank Access
+
+Can we automatically download check images?
+
+### Test 2: OCR on Check Images
+
+Can AI accurately extract vendor, amount, and date?
+
+### Test 3: OCR on Invoices
+
+Can AI read invoices from different vendors?
+
+### Test 4: Matching Logic
+
+Can we automatically match invoices to payments? --> main problem we need to solve
+
+Test 5: Reporting
+
+Can results be displayed on a dashboard like Power BI?
